@@ -7,7 +7,7 @@ app = FastAPI()
 DB_HOST = os.getenv("DB_HOST", "yamanote.proxy.rlwy.net")
 DB_USER = os.getenv("DB_USER", "root")
 DB_PASSWORD = os.getenv("DB_PASSWORD", "IzHqftUcXdEZFbPeYhlEFhCErHxWRZuF")
-DB_NAME = os.getenv("DB_NAME", "sepeyco")
+DB_NAME = os.getenv("DB_NAME", "Sepeyco")
 DB_PORT = int(os.getenv("DB_PORT", "51235"))
 
 @app.get("/repuesto")
